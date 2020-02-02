@@ -15,8 +15,7 @@
 #==================================================
 
 # Import the data
-# I need help here, How can I have this file read without using my own file direction?
-wbcd <- read.csv("file:///C:/Users/raulb/Desktop/MSDA-UHD/CS 5310/L02_Ch3[LazyLearning]/wisc_bc_data.csv", stringsAsFactors = FALSE)
+wbcd <- read.csv("wisc_bc_data.csv", stringsAsFactors = FALSE)
 
 # Read the data
 data.frame(wbcd)
